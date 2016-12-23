@@ -15,7 +15,7 @@
  */
 
 class FontAwesomeResourcesGrailsPlugin {
-    def version = '4.6.3'
+    def version = '4.7.0'
     def grailsVersion = '2.0 > *'
     def title = 'Grails Font Awesome Resources Plugin'
     def description = '''\
@@ -29,7 +29,8 @@ From version 4.0.3.0 support for IE7 is gone, since Font Awesome does not suppor
     def developers = [
         [name: "Eamoon O'Connell", email: 'eamonnoconnell@gmail.com'],
         [name: 'Alexey Zhokhov', email: 'donbeave@gmail.com'],
-        [name: 'Søren Berg Glasius', email: 'soeren@glasius.dk']
+        [name: 'Søren Berg Glasius', email: 'soeren@glasius.dk'],
+        [name: 'John J. Allison', email: 'jja@sinequanon.net']
     ]
     def issueManagement = [url: 'https://github.com/donbeave/grails-font-awesome/issues']
     def scm = [url: 'https://github.com/donbeave/grails-font-awesome']
